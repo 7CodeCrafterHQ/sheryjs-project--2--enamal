@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,7 +28,7 @@
                     Our Jounary
                 </a>
             </div>
-        </nav>
+        </nav>  
         <div id="page1">
                  <div id="page1-part1">
                   <h1>0.1</h1>
@@ -34,9 +37,12 @@
                   <img src="https://images.unsplash.com/photo-1471400974796-1c823d00a96f?auto=format&fit=crop&q=80&w=1667&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                  </div>      
                  <div id="page1-part2">
-                    <h1>Alok <br> rathore</h1>
+                    <div id="text">
+                        <h1>Alok</h1>
+                    <h1>Rathore</h1>
+                    </div>
                     <div id="image">
-                    <img src="https://images.unsplash.com/photo-1501761095094-94d36f57edbb?auto=format&fit=crop&q=80&w=1965&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <img src="./pinkplant.jpg" alt="">
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a praesentium quo soluta, repellendus dicta excepturi illo perferendis maiores. Tempore!</p>
                  </div>
@@ -66,14 +72,39 @@
             </div>
         </div>
         <div id="page3">
+           <div id="images">
             <img src="./bottle.jpg" alt="">
+           <img src="./bottle2.jpg" alt="">
+           </div>
+           
             <div id="text">
                 <h1>7 Code crafter HQ</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ullam beatae incidunt nemo aliquam voluptatum doloremque nesciunt autem!</p>
             </div>
 
         </div>
+        <div id="page4">
+            <video autoplay loop  src="./back.mp4"></video>
+            <div id="text">
+                <h1>think of future</h1>
+                <button>Join the Momment</button>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js "></script>
+
+     <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <script src="script.js"></script>
 </body>
 
